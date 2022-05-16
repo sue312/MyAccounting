@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="160dp"
+    android:minHeight="160dp"
+    android:updatePeriodMillis="3600000"
+    android:previewImage="@drawable/btn_fr1"
+    android:initialLayout="@layout/my_appwidget"
+    android:resizeMode="none"
+    android:widgetCategory="home_screen">
+</appwidget-provider>

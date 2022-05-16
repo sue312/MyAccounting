@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyAccounting</string>
+    <string name="tv_expenditure">支出:</string>
+    <string name="tv_income">"收入: "</string>
+    <string name="btn_confirm">确认</string>
+    <string name="tv_reason">缘由:</string>
+    <string name="btn_fr1">首页</string>
+    <string name="btn_fr3">我的</string>
+    <string name="btn_fr2">统计</string>
+    <string name="tv_time">时间:</string>
+    <string name="tv_balance">结余:</string>
+</resources>

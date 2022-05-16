@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/btn_focus.xml" value="0.1675925925925926" />
+        <entry key="app/src/main/res/drawable-v24/btn_fr.xml" value="0.1675925925925926" />
+        <entry key="app/src/main/res/drawable-v24/btn_fr1.xml" value="0.1675925925925926" />
+        <entry key="app/src/main/res/drawable-v24/btn_fragment.xml" value="0.1574074074074074" />
+        <entry key="app/src/main/res/drawable-v24/btn_noFocus.xml" value="0.1675925925925926" />
+        <entry key="app/src/main/res/drawable-v24/btn_no_focus.xml" value="0.1675925925925926" />
+        <entry key="app/src/main/res/drawable-v24/btn_nofocus.xml" value="0.1675925925925926" />
+        <entry key="app/src/main/res/drawable-v24/btn_ok.xml" value="0.1574074074074074" />
+        <entry key="app/src/main/res/drawable-v24/line.xml" value="0.16018518518518518" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1574074074074074" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.291213768115942" />
+        <entry key="app/src/main/res/layout/bill2_item.xml" value="0.297554347826087" />
+        <entry key="app/src/main/res/layout/bill_item.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_1.xml" value="0.291213768115942" />
+        <entry key="app/src/main/res/layout/fragment_2.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/my_appwidget.xml" value="0.31476449275362317" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

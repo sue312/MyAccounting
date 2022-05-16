@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/btn_fr1"
+            android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/tv_home"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:textColor="@color/teal_200"/>
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/tv_temperature"
+                    android:gravity="center"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/tv_temperature"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/tv_humidity"
+                    android:textSize="40dp"/>
+
+                <TextView
+                    android:id="@+id/tv_humidity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:textSize="20dp"/>
+
+        </RelativeLayout>
+
+</RelativeLayout>

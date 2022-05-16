@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- 工具栏 -->
+        <item name="colorPrimary">#A4FFEB3B</item>
+        <!-- 屏幕顶部的状态栏 -->
+        <item name="colorPrimaryDark">#131313</item>
+        <!-- 按钮 -->
+        <item name="buttonStyle">@style/BeatBoxButton</item>
+    </style>
+
+    <style name="BeatBoxButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/main_style</item>
+    </style>
+
+</resources>
