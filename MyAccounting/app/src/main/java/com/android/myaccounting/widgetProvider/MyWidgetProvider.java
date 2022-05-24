@@ -11,6 +11,7 @@ import android.widget.RemoteViews;
 
 import com.android.myaccounting.R;
 import com.android.myaccounting.databases.Data;
+import com.android.myaccounting.databases.DataProcessing;
 import com.android.myaccounting.databases.GetDate;
 import com.android.myaccounting.view.MainActivity;
 
@@ -21,6 +22,8 @@ public class MyWidgetProvider extends AppWidgetProvider {
     private String et2;
 
     private void updateWidget(Context context, AppWidgetManager appWidgetManager, int appWidgetId) {
+        DataProcessing dp = new DataProcessing(context);
+        dp.dataQuery();
         Intent intent = new Intent(context, MainActivity.class);
         PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, intent, 0);
         views = new RemoteViews(context.getPackageName(), R.layout.my_appwidget);
