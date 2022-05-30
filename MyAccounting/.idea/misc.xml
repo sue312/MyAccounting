@@ -11,7 +11,9 @@
         <entry key="app/src/main/res/drawable-v24/btn_no_focus.xml" value="0.1675925925925926" />
         <entry key="app/src/main/res/drawable-v24/btn_nofocus.xml" value="0.1675925925925926" />
         <entry key="app/src/main/res/drawable-v24/btn_ok.xml" value="0.1574074074074074" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.18425925925925926" />
         <entry key="app/src/main/res/drawable-v24/line.xml" value="0.16018518518518518" />
+        <entry key="app/src/main/res/drawable-v24/main_style.xml" value="0.18425925925925926" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1574074074074074" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.291213768115942" />
         <entry key="app/src/main/res/layout/bill2_item.xml" value="0.297554347826087" />
@@ -19,6 +21,7 @@
         <entry key="app/src/main/res/layout/fragment_1.xml" value="0.291213768115942" />
         <entry key="app/src/main/res/layout/fragment_2.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/my_appwidget.xml" value="0.31476449275362317" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.35572916666666665" />
       </map>
     </option>
   </component>

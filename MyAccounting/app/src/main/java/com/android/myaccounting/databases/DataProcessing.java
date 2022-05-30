@@ -27,13 +27,13 @@ public class DataProcessing {
     public void dataQuery() {
         Dao dao = new Dao(mContext);
         Cursor cursor = dao.dataQuery();
-        Data.balance = 0;
+        Data.setBalance(0);
         while (cursor.moveToNext()) {
-            Data.expenditure = cursor.getInt(0);
-            Data.income = cursor.getInt(1);
-            Data.time = cursor.getLong(2);
-            Data.reason = cursor.getString(3);
-            Data.balance = Data.balance + Data.income - Data.expenditure;
+            Data.setExpenditure(cursor.getInt(0));
+            Data.setIncome(cursor.getInt(1));
+            Data.setTime(cursor.getLong(2));
+            Data.setReason(cursor.getString(3));
+            Data.setBalance(Data.getBalance() + Data.getIncome() - Data.getExpenditure());
         }
     }
 

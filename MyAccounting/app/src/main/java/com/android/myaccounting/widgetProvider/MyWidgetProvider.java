@@ -28,7 +28,7 @@ public class MyWidgetProvider extends AppWidgetProvider {
         PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, intent, 0);
         views = new RemoteViews(context.getPackageName(), R.layout.my_appwidget);
         views.setTextViewText(R.id.tv_home,"结余");
-        views.setTextViewText(R.id.tv_temperature, Data.balance+"");
+        views.setTextViewText(R.id.tv_temperature, Data.getBalance()+"");
         views.setOnClickPendingIntent(R.id.ll_1, pendingIntent);
         appWidgetManager.updateAppWidget(appWidgetId, views);
     }

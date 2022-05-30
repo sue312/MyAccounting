@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onStop();
         Intent intent = new Intent("android.appwidget.action.APPWIDGET_UPDATE");
         Bundle bundle = new Bundle();
-        bundle.putString("et2",Data.balance+"");
+        bundle.putString("et2",Data.getBalance()+"");
         intent.putExtras(bundle);
         this.sendBroadcast(intent);
     }

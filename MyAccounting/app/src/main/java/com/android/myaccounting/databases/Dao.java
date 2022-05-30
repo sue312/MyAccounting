@@ -31,10 +31,10 @@ public class Dao {
     public void dataInsert() {
         SQLiteDatabase db = helper.getWritableDatabase();
         ContentValues values = new ContentValues();
-        values.put("expenditure", Data.expenditure);
-        values.put("income", Data.income);
-        values.put("time",Data.time);
-        values.put("reason",Data.reason);
+        values.put("expenditure", Data.getExpenditure());
+        values.put("income", Data.getIncome());
+        values.put("time",Data.getTime());
+        values.put("reason",Data.getReason());
         db.insert(Config.TABLE_NAME, null, values);
         db.close();
     }

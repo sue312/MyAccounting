@@ -73,24 +73,24 @@ public class Fragment1 extends Fragment {
         String reason = et_reason.getText().toString();
 
         if (expenditure.equals("") || expenditure == null) {
-            Data.expenditure = 0;
+            Data.setExpenditure(0);
         } else {
-            Data.expenditure = Integer.parseInt(expenditure);
+            Data.setExpenditure(Integer.parseInt(expenditure));
         }
         if (income.equals("") || income == null) {
-            Data.income = 0;
+            Data.setIncome(0);
         }else {
-            Data.income = Integer.parseInt(income);
+            Data.setIncome(Integer.parseInt(income));
         }
-        Data.time = System.currentTimeMillis();
-        Data.reason = reason;
+        Data.setTime(System.currentTimeMillis());
+        Data.setReason(reason);
 
         dp.dataInsert();
     }
 
     public void setBalance() {
         dp.dataQuery();
-        tv_balance.setText(getContext().getString(R.string.tv_balance)+ Data.balance);
+        tv_balance.setText(getContext().getString(R.string.tv_balance)+ Data.getBalance());
         et_expenditure.setText("");
         et_income.setText("");
         et_reason.setText("");
